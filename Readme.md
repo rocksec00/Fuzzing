@@ -1,11 +1,4 @@
-Absolutely Rocky — here is the **full, complete, polished, professional README.md**
-covering **EVERYTHING** about your fuzzer: usage, help, examples, features, installation, legal notes, and technical explanation.
-
-You can copy-paste this directly as your project’s **README.md**.
-
----
-
-# 🚀 **Rocky’s Fast Dirsearch-Style Multi-Domain Web Fuzzer**
+# 🚀 **RockSec’s Fast Dirsearch-Style Multi-Domain Web Fuzzer**
 
 A high-performance, multi-domain web fuzzer inspired by **dirsearch**, designed for bug bounty, reconnaissance, directory discovery, and endpoint enumeration.
 
@@ -300,19 +293,8 @@ Unauthorized scanning is illegal.
 
 # 🧑‍💻 Author
 
-**Rocky**
+**RockSec**
 
 Built with care for speed, reliability, and practical bug bounty usage.
 
 ---
-
-If you want:
-
-* An ASCII banner/logo
-* A `--help` command in the script
-* A full project folder layout
-* A requirements.txt
-* A setup.py installer
-* Docker version
-
-Just say **“add banner”**, **“give project layout”**, **“make a pip package”**, etc.
