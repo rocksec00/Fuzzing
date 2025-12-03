@@ -1,6 +1,6 @@
-# 🚀 **RockSec’s Fast Dirsearch-Style Multi-Domain Web Fuzzer**
+# 🚀 **RockSec’s Fast Style Multi-Domain Web Fuzzer**
 
-A high-performance, multi-domain web fuzzer inspired by **dirsearch**, designed for bug bounty, reconnaissance, directory discovery, and endpoint enumeration.
+A high-performance, multi-domain web fuzzer, designed for bug bounty, reconnaissance, directory discovery, and endpoint enumeration.
 
 This tool delivers **speed**, **control**, and **clean output**, making it ideal for large engagement scans.
 
@@ -76,7 +76,7 @@ targets.txt → targets.txt
 https://example.com → example.com.txt
 ```
 
-### ✔ Clean, Colorized Output (dirsearch-style)
+### ✔ Clean, Colorized Output
 
 ```
 [14:22:31] 200   523B   GET      https://example.com/admin
@@ -102,7 +102,7 @@ pip install requests colorama
 Make script executable (optional):
 
 ```bash
-chmod +x fast_dirsearch_multi.py
+chmod +x Fuzzing.py
 ```
 
 ---
@@ -112,7 +112,7 @@ chmod +x fast_dirsearch_multi.py
 ## Basic Usage (Single Domain)
 
 ```bash
-python3 fast_dirsearch_multi.py https://example.com ./wordlists/
+python3 Fuzzing.py https://example.com ./wordlists/
 ```
 
 Output saved to:
@@ -138,7 +138,7 @@ https://admin.site.org
 Then scan:
 
 ```bash
-python3 fast_dirsearch_multi.py domains.txt ./wordlists/
+python3 Fuzzing.py domains.txt ./wordlists/
 ```
 
 Output saved to:
@@ -154,7 +154,7 @@ domains.txt
 Show only 200, 302, 403 on screen:
 
 ```bash
-python3 fast_dirsearch_multi.py https://example.com ./wordlists/ --status 200,302,403
+python3 Fuzzing.py https://example.com ./wordlists/ --status 200,302,403
 ```
 
 ---
@@ -162,7 +162,7 @@ python3 fast_dirsearch_multi.py https://example.com ./wordlists/ --status 200,30
 ## High Speed Mode (Recommended)
 
 ```bash
-python3 fast_dirsearch_multi.py https://example.com ./wordlists/ --threads 150 --timeout 4
+python3 Fuzzing.py https://example.com ./wordlists/ --threads 150 --timeout 4
 ```
 
 ---
@@ -171,7 +171,7 @@ python3 fast_dirsearch_multi.py https://example.com ./wordlists/ --threads 150 -
 
 ```
 Usage:
-  fast_dirsearch_multi.py <target|target_file> <wordlist_dir> [options]
+  Fuzzing.py <target|target_file> <wordlist_dir> [options]
 
 Arguments:
   <target>            Single URL (ex: https://example.com)
