@@ -17,7 +17,7 @@ from colorama import Fore, Style, init as color_init
 color_init(autoreset=True)
 
 DEFAULT_THREADS = 20       # fast default
-DEFAULT_TIMEOUT = 4
+DEFAULT_TIMEOUT = 3
 
 SAVE_CODES = {200, 302, 403, 401}     # always save these
 
