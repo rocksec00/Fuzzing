@@ -47,7 +47,7 @@ Fully supports a directory containing multiple wordlist files:
   └── leaks.txt
 ```
 
-### 📊 Live Progress Bar (Dirsearch-Style)
+### 📊 Live Progress Bar
 
 Real-time stats:
 
